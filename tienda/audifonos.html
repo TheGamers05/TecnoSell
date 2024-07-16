@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - TecnoSell</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <img src="/images/logo2.png" alt="Logo de TecnoSell" class="logo">
+        </div>
+        <div class="header-center">
+            <h1>TECNOSELL</h1>
+        </div>
+        <div class="header-right">
+            <div class="social-buttons">
+                <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.whatsapp.com" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navegador -->
+    <nav class="navegador">
+        <ul>
+            <li class="pagina-principal"><a href="/index.html">Página Principal</a></li>
+            <li>
+                <a href="/tienda.html">Tienda</a>
+                <ul class="submenu">
+                    <li><a href="audifonos.html">Audífonos</a></li>
+                    <li><a href="laptops.html">Laptops</a></li>
+                    <li><a href="consolas.html">Consolas</a></li>
+                    <li><a href="celulares.html">Celulares</a></li>
+                </ul>
+            </li>
+            <li><a href="#" id="cart-button">Carrito (<span id="cart-count">0</span>)</a></li>
+        </ul>
+    </nav>
+
+    <div id="cart" style="display:none;">
+        <h2>Carrito de Compras</h2>
+        <div id="cart-items"></div>
+        <button id="checkout-button">Finalizar Compra</button>
+    </div>
+
+    <!-- TIENDA -->
+    <h2>Audifonos</h2>
+    <div class="container_tienda">
+        <div class="box">
+            <img src="/images/Buds 2 pro.png">
+            <h2>Samsung Galaxy Buds 2 Pro</h2>
+            <p>Son auriculares inalámbricos de Samsung diseñados para ofrecer una experiencia auditiva premium. Con cancelación activa de ruido, calidad de sonido excepcional y un diseño cómodo.</p>
+            <span>$110</span>
+            <div class="options">
+                <a href="/productos/audifonosproduct.html">Comprar</a>
+                <a href="#" class="add-to-cart" data-product="1">Agregar al Carrito</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/buds live.jpeg">
+            <h2>Samsung Galaxy Buds Live</h2>
+            <p>Los Buds Live ofrecen una combinación de diseño innovador, calidad de sonido superior y funcionalidades avanzadas, haciendo de ellos una opción atractiva para usuarios que buscan comodidad, rendimiento pero también economía.</p>
+            <span>$65</span>
+            <div class="options">
+                <a href="#">Comprar</a>
+                <a href="#" class="add-to-cart" data-product="1">Agregar al Carrito</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/Samsung Level.jpg">
+            <h2>Samsung Level On PRO</h2>
+            <p>Los Samsung Level On PRO ofrecen una combinación de calidad de sonido de alta resolución, comodidad y tecnología avanzada de cancelación de ruido, lo que los convierte en una opción sólida.</p>
+            <span>$175</span>
+            <div class="options">
+                <a href="#">Comprar</a>
+                <a href="#" class="add-to-cart" data-product="1">Agregar al Carrito</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/Samsung AKG.png">
+            <h2>Samsung AKG (Type-C)</h2>
+            <p>Estos auriculares son una opción excelente para los usuarios que buscan una solución de audio de alta calidad con la conveniencia del conector USB-C, especialmente para aquellos que utilizan dispositivos Samsung.</p>
+            <span>$25</span>
+            <div class="options">
+                <a href="#">Comprar</a>
+                <a href="#" class="add-to-cart" data-product="1">Agregar al Carrito</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/Airpods Pro 2.jpeg">
+            <h2>Apple AirPods Pro 2</h2>
+            <p>Los AirPods Pro 2 se destacan por sus mejoras en la calidad de sonido, mayor comodidad, mejor cancelación de ruido y nuevas funciones de conectividad, consolidándose como una opción superior en el mercado de auriculares inalámbricos.</p>
+            <span>$220</span>
+            <div class="options">
+                <a href="#">Comprar</a>
+                <a href="#" class="add-to-cart" data-product="1">Agregar al Carrito</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/airpods 3.jpg">
+            <h2>Apple AirPods 3</h2>
+            <p>Los AirPods 3 representan una evolución en términos de diseño y funcionalidad, ofreciendo mejoras significativas en la calidad de sonido, duración de la batería y características de conectividad,lo que los convierte en una opción sólida para usuarios.</p>
+            <span>$160</span>
+            <div class="options">
+                <a href="#">Comprar</a>
+                <a href="#" class="add-to-cart" data-product="1">Agregar al Carrito</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/Airpods max.jpg">
+            <h2>Apple AirPods Max</h2>
+            <p>Los AirPods Max ofrecen una combinación de diseño premium, calidad de sonido excepcional y características avanzadas, consolidándose como una opción destacada para aquellos que buscan una experiencia de audio superior.</p>
+            <span>$550</span>
+            <div class="options">
+                <a href="#">Comprar</a>
+                <a href="#" class="add-to-cart" data-product="1">Agregar al Carrito</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/earpods.png">
+            <h2>Apple EarPods (Type-C)</h2>
+            <p>Estos auriculares son una opción conveniente para los usuarios que buscan la calidad de sonido y la comodidad de los EarPods tradicionales,tecnología plug-and-play, pero con la conectividad moderna del conector USB-C.</p>
+            <span>$45</span>
+            <div class="options">
+                <a href="#">Comprar</a>
+                <a href="#" class="add-to-cart" data-product="1">Agregar al Carrito</a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer>
+        <p>&copy; 2024 TecnoSell. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="/scripts.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TecnoSell - Página Principal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <img src="images/logo2.png" alt="Logo de TecnoSell" class="logo">
+        </div>
+        <div class="header-center">
+            <h1>TECNOSELL</h1>
+        </div>
+        <div class="header-right">
+            <div class="social-buttons">
+                <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.whatsapp.com" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navegador -->
+    <nav class="navegador">
+        <ul>
+            <li class="pagina-principal"><a href="index.html">Página Principal</a></li>
+                <li><a href="#vision">Visión</a></li>
+                <li><a href="#mision">Misión</a></li>
+                <li><a href="#objetivos">Objetivos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            <li>
+                <a href="tienda.html">Tienda</a>
+                <ul class="submenu">
+                    <li><a href="/tienda/audifonos.html">Audífonos</a></li>
+                    <li><a href="/tienda/laptops.html">Laptops</a></li>
+                    <li><a href="/tienda/consolas.html">Consolas</a></li>
+                    <li><a href="/tienda/celulares.html">Celulares</a></li>
+                </ul>
+            </li>
+            <li><a href="#" id="cart-button">Carrito (<span id="cart-count">0</span>)</a></li>
+        </ul>
+    </nav>
+
+    <div class="portada">
+        <div class="imagen-fondo">
+            <img src="images/fondo8.jpg" alt="Header Image">
+            <img src="images/fondo10.jpg" alt="Header Image">
+            <img src="images/fondo9.jpg" alt="Header Image">
+            <img src="images/fondo7.jpg" alt="Header Image">
+            <img src="images/fondo11.jpg" alt="Header Image">
+            <img src="images/fondo5.jpg" alt="Header Image">
+        </div>
+        <div class="portada_texto">¡La mejor Tecnología al alcance de tus manos!
+            <div class="texto_p">
+                <button class="boton"><a href="tienda.html">TIENDA</a></button>
+            </div>
+        </div>  
+    </div>
+
+    <div id="cart" style="display:none;">
+        <h2>Carrito de Compras</h2>
+        <div id="cart-items"></div>
+        <button id="checkout-button">Finalizar Compra</button>
+        <button id="close-cart-button">Cerrar Carrito</button>
+    </div>
+
+
+    <div class="contenedor-imagenes">
+        <div class="imagen-con-texto">
+            <img src="images/audifonos.png" alt="Imagen 1">
+            <a href="/tienda/audifonos.html">Audifonos</a>
+        </div>
+        <div class="imagen-con-texto">
+            <img src="images/celulares.png" alt="Imagen 2">
+            <a href="/tienda/celulares.html">Celulares</a>
+        </div>
+        <div class="imagen-con-texto">
+            <img src="images/dualsense.png" alt="Imagen 3">
+            <a href="/tienda/consolas.html">Consolas</a>
+        </div>
+        <div class="imagen-con-texto">
+            <img src="images/laptop.png" alt="Imagen 4">
+            <a href="/tienda/laptops.html">Laptops</a>
+        </div>
+    </div>
+
+
+    <div class="imagen_texto" id="vision">
+        <div class="container">
+            <div class="row">
+                <div>
+                <h1>Visión</h1>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <div class="content">
+                        <p>Ser líderes en la venta de tecnología, ofreciendo productos innovadores y de calidad.
+
+                            Ser reconocidos como la mejor opción en la venta de tecnología, proporcionando productos innovadores y un servicio excepcional.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="img" style="background: url(images/vision.jpg)no-repeat center;background-size:cover;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="imagen_texto_mision" id="mision">
+        <div class="container">
+            <div class="row">
+                <div>
+                <h1>Misión</h1>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <div class="content">
+                        <p>Brindar soluciones tecnológicas a nuestros clientes, satisfaciendo sus necesidades y superando sus expectativas.
+
+                            Nuestra misión es ofrecer productos tecnológicos de calidad, brindando una experiencia de compra segura y satisfactoria para nuestros clientes.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="img" style="background: url(images/mision.jpg)no-repeat center;background-size:cover;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="imagen_texto" id="objetivos">
+        <div class="container">
+            <div class="row">
+                <div>
+                <h1>Objetivos</h1>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <div class="content">
+                        <p>Ofrecer una amplia gama de productos tecnológicos de última generación.
+                            Garantizar la satisfacción del cliente a través de un excelente servicio postventa.
+                            Mantenernos actualizados con las tendencias tecnológicas y ofrecer productos de vanguardia.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="img" style="background: url(images/objetivo.jpg)no-repeat center;background-size:cover;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <main>
+        <div class="main-content">
+            <section class="centered">
+                <h2>Video de Presentación</h2>
+                    <iframe width="950" height="420" src="/images/Ofertas increíbles en TECNOSELL.mp4" frameborder="0" allowfullscreen></iframe>
+            </section>
+        </div>
+    </main>
+
+    
+    <div class="bg_formulario" id="contacto">
+        <div class="container_formulario">
+            <h2>Formulario de Contacto</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono">
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" required></textarea>
+                </div>
+                <button class="btn" type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 TecnoSell. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

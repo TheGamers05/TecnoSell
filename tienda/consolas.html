@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - TecnoSell</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <img src="/images/logo2.png" alt="Logo de TecnoSell" class="logo">
+        </div>
+        <div class="header-center">
+            <h1>TECNOSELL</h1>
+        </div>
+        <div class="header-right">
+            <div class="social-buttons">
+                <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.whatsapp.com" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navegador -->
+    <nav class="navegador">
+        <ul>
+            <li class="pagina-principal"><a href="/index.html">Página Principal</a></li>
+            <li>
+                <a href="/tienda.html">Tienda</a>
+                <ul class="submenu">
+                    <li><a href="audifonos.html">Audífonos</a></li>
+                    <li><a href="laptops.html">Laptops</a></li>
+                    <li><a href="consolas.html">Consolas</a></li>
+                    <li><a href="celulares.html">Celulares</a></li>
+                </ul>
+            </li>
+            <li><a href="#" id="cart-button">Carrito (<span id="cart-count">0</span>)</a></li>
+        </ul>
+    </nav>
+
+    <div id="cart" style="display:none;">
+        <h2>Carrito de Compras</h2>
+        <div id="cart-items"></div>
+        <button id="checkout-button">Finalizar Compra</button>
+        <button id="close-cart-button">Cerrar Carrito</button>
+    </div>
+
+    <!-- TIENDA -->
+    <h2>Consolas</h2>
+    <div class="container_tienda">
+        <div class="box">
+            <img src="/images/ps5 slim.jpg">
+            <h2>Ps5 Slim (Disk)</h2>
+            <p>Es la última consola de videojuegos de Sony, que ofrece una experiencia de juego inmersiva y de alta calidad. Con gráficos de última generación, tiempos de carga ultrarrápidos y un amplio catálogo de juegos exclusivos</p>
+            <span>$600</span>
+            <div class="options">
+                <a href="/productos/consolasproducto.html">Comprar</a>
+                <a href="#" class="add-to-cart" data-product="1">Agregar al Carrito</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/dualsense rosa.png">
+            <h2>DualSense (PS5)</h2>
+            <p>El DualSense ha sido ampliamente elogiado por su innovador diseño y sus características avanzadas, que aportan una nueva dimensión de inmersión y disfrute a la experiencia de juego en la PS5.</p>
+            <span>$65</span>
+            <div class="options">
+                <a href="/productos/consolasproducto.html"">Comprar</a>
+                <a href="#" class="add-to-cart" data-product="1">Agregar al Carrito</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/xbox series x.jpg">
+            <h2>Xbox Series X</h2>
+            <p>La Xbox Series X es conocida por su potencia bruta y su capacidad para ofrecer una experiencia de juego fluida y visualmente impresionante, consolidándose como una de las consolas más potentes y versátil.</p>
+            <span>$600</span>
+            <div class="options">
+                <a href="/productos/consolasproducto.html">Comprar</a>
+                <a href="#" class="add-to-cart" data-product="1">Agregar al Carrito</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/consolas.png">
+            <h2>Mando Xbox Series</h2>
+            <p>El mando de Xbox Series X|S ha sido bien recibido por su diseño familiar pero mejorado, sus nuevas funcionalidades y su amplia compatibilidad, lo que lo convierte en una opción robusta y versátil para jugadores de diferentes.</p>
+            <span>$65</span>
+            <div class="options">
+                <a href="/productos/consolasproducto.html">Comprar</a>
+                <a href="#" class="add-to-cart" data-product="1">Agregar al Carrito</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/nitnedo-switch-oled.jpg">
+            <h2>Nintendo Switch Oled</h2>
+            <p>La Nintendo Switch OLED mejora la experiencia visual y la comodidad de uso, especialmente en modo portátil, gracias a su pantalla superior y otras mejoras de hardware. Es una excelente opción para nuevos compradores y para quienes buscan actualizar su consola existente.</p>
+            <span>$300</span>
+            <div class="options">
+                <a href="/productos/consolasproducto.html">Comprar</a>
+                <a href="#" class="add-to-cart" data-product="1">Agregar al Carrito</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/pro controller.jpg">
+            <h2>Nintendo Pro Controller</h2>
+            <p>El Nintendo Switch Pro Controller es una opción excelente para los jugadores que buscan una experiencia de juego más tradicional y cómoda, con características avanzadas que mejoran la jugabilidad, la inmersión y de una calidad muy alta en resistencia. </p>
+            <span>$80</span>
+            <div class="options">
+                <a href="/productos/consolasproducto.html">Comprar</a>
+                <a href="#" class="add-to-cart" data-product="1">Agregar al Carrito</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/steam deck.jpg">
+            <h2>Steam Deck</h2>
+            <p>El Steam Deck ha sido bien recibido por su capacidad de ofrecer una experiencia de juego de PC en un formato portátil, combinando potencia y versatilidad con una amplia compatibilidad de juegos. Es una opción atractiva para los jugadores.</p>
+            <span>$600</span>
+            <div class="options">
+                <a href="/productos/consolasproducto.html">Comprar</a>
+                <a href="#" class="add-to-cart" data-product="1">Agregar al Carrito</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/steam controller.jpg">
+            <h2>Steam Controller</h2>
+            <p>El Steam Controller ha sido elogiado por su innovación y la capacidad de personalización, aunque su diseño único ha recibido críticas mixtas de los usuarios acostumbrados a los controladores tradicionales.</p>
+            <span>$45</span>
+            <div class="options">
+                <a href="/productos/consolasproducto.html">Comprar</a>
+                <a href="#" class="add-to-cart" data-product="1">Agregar al Carrito</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="/scripts.js"></script>
+
+    <footer>
+        <p>&copy; 2024 TecnoSell. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

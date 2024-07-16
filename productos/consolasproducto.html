@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - TecnoSell</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <img src="/images/logo2.png" alt="Logo de TecnoSell" class="logo">
+        </div>
+        <div class="header-center">
+            <h1>TECNOSELL</h1>
+        </div>
+        <div class="header-right">
+            <div class="social-buttons">
+                <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.whatsapp.com" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navegador -->
+    <nav class="navegador">
+        <ul>
+            <li class="pagina-principal"><a href="/index.html">Página Principal</a></li>
+            <li>
+                <a href="/tienda.html">Tienda</a>
+                <ul class="submenu">
+                    <li><a href="/tienda/audifonos.html">Audífonos</a></li>
+                    <li><a href="/tienda/laptops.html">Computadoras</a></li>
+                    <li><a href="/tienda/consolas.html">Consolas</a></li>
+                    <li><a href="/tienda/celulares.html">Celulares</a></li>
+                </ul>
+            </li>
+            <li><a href="#" id="cart-button">Carrito (<span id="cart-count">0</span>)</a></li>
+        </ul>
+    </nav>
+
+    <!-- Carrito de compra -->
+    <div id="cart" style="display:none;">
+        <h2>Carrito de Compras</h2>
+        <div id="cart-items"></div>
+        <button id="checkout-button">Finalizar Compra</button>
+        <button id="close-cart-button">Cerrar Carrito</button>
+    </div>
+
+
+    <!-- TIENDA -->
+    <h2>PRODUCTO</h2>
+
+    <div class="container_producto">
+        <div class="box_producto">
+            <div class="box">
+                <img src="/images/ps5 slim.jpg">
+                <h2>Ps5 Slim (Disk)</h2>
+                <p>Es la última consola de videojuegos de Sony, que ofrece una experiencia de juego inmersiva y de alta calidad. Con gráficos de última generación, tiempos de carga ultrarrápidos y un amplio catálogo de juegos exclusivos</p>
+                <span>$600</span>
+                <div class="options">
+                    <a href="/productos/audifonosproduct.html">Comprar</a>
+                    <a href="#" class="add-to-cart" data-product="1">Agregar al Carrito</a>
+                </div>
+                <div class="description">
+                    <p>Procesador y Gráficos:
+
+                        CPU: AMD Ryzen "Zen 2" personalizado con 8 núcleos y 16 hilos, hasta 3.5 GHz.
+                        GPU: AMD RDNA 2 personalizada, con 36 unidades de cómputo a 2.23 GHz.
+                        Potencia gráfica: 10.28 TFLOPS.
+                        Arquitectura: RDNA 2.
+                        Memoria:
+                        
+                        RAM: 16 GB GDDR6.
+                        Ancho de banda: 448 GB/s.
+                        Almacenamiento:
+                        
+                        SSD: 825 GB SSD NVMe personalizada.
+                        Velocidad de lectura: 5.5 GB/s (sin compresión), hasta 9 GB/s (comprimido).
+                        Almacenamiento expandible: Ranura para SSD NVMe adicional.
+                        Unidad de Disco:
+                        
+                        Lector de discos: Blu-ray 4K UHD.
+                        Audio:
+                        
+                        Audio 3D: Tecnología Tempest 3D AudioTech para una experiencia de audio inmersiva.
+                        Resolución y Frecuencia de Cuadro:
+                        
+                        Resolución: Soporte para 4K a 120 Hz, 8K a 60 Hz (con actualizaciones futuras).
+                        Tecnología de Frecuencia Variable (VRR): Compatible.
+                        </p>
+                    <ul class="social">
+                        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <h2>RECOMENDADOS</h2>
+    <div class="container_tienda">
+        <div class="box">
+            <img src="/images/nitnedo-switch-oled.jpg">
+            <h2>Nintendo Switch Oled</h2>
+            <p>La Nintendo Switch OLED mejora la experiencia visual y la comodidad de uso, especialmente en modo portátil, gracias a su pantalla superior y otras mejoras de hardware. Es una excelente opción para nuevos compradores y para quienes buscan actualizar su consola.</p>
+            <span>$300</span>
+            <div class="options">
+                <a href="/productos/consolasproducto.html">Comprar</a>
+                <a href="#" class="add-to-cart" data-product="1">Agregar al Carrito</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/xbox series x.jpg">
+            <h2>Xbox Series X</h2>
+            <p>Es conocida por su potencia bruta y por ofrecer una experiencia de juego fluida.</p>
+            <span>$600</span>
+            <div class="options">
+                <a href="#">Comprar</a>
+                <a href="#" class="add-to-cart" data-product="1">Agregar al Carrito</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/steam deck.jpg">
+            <h2>Steam Deck</h2>
+            <p>El Steam Deck ha sido bien recibido por su capacidad de ofrecer una experiencia de juego de PC en un formato portátil, combinando potencia y versatilidad con una amplia compatibilidad de juegos. Es una opción atractiva para los jugadores.</p>
+            <span>$600</span>
+            <div class="options">
+                <a href="#">Comprar</a>
+                <a href="#" class="add-to-cart" data-product="1">Agregar al Carrito</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/consolas.png">
+            <h2>Mando Xbox Series</h2>
+            <p>a sido bien recibido por su diseño mejorado, y sus nuevas funcionalidades</p>
+            <span>$65</span>
+            <div class="options">
+                <a href="#">Comprar</a>
+                <a href="#" class="add-to-cart" data-product="1">Agregar al Carrito</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="/scripts.js"></script>
+
+    <footer>
+        <p>&copy; 2024 TecnoSell. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - TecnoSell</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <img src="/images/logo2.png" alt="Logo de TecnoSell" class="logo">
+        </div>
+        <div class="header-center">
+            <h1>TECNOSELL</h1>
+        </div>
+        <div class="header-right">
+            <div class="social-buttons">
+                <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.whatsapp.com" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navegador -->
+    <nav class="navegador">
+        <ul>
+            <li class="pagina-principal"><a href="/index.html">Página Principal</a></li>
+            <li>
+                <a href="/tienda.html">Tienda</a>
+                <ul class="submenu">
+                    <li><a href="/tienda/audifonos.html">Audífonos</a></li>
+                    <li><a href="/tienda/laptops.html">Computadoras</a></li>
+                    <li><a href="/tienda/consolas.html">Consolas</a></li>
+                    <li><a href="/tienda/celulares.html">Celulares</a></li>
+                </ul>
+            </li>
+            <li><a href="#" id="cart-button">Carrito (<span id="cart-count">0</span>)</a></li>
+        </ul>
+    </nav>
+
+        <!-- Carrito de compra -->
+        <div id="cart" style="display:none;">
+            <h2>Carrito de Compras</h2>
+            <div id="cart-items"></div>
+            <button id="checkout-button">Finalizar Compra</button>
+            <button id="close-cart-button">Cerrar Carrito</button>
+        </div>
+
+    <!-- TIENDA -->
+    <h2>PRODUCTO</h2>
+
+    <div class="container_producto">
+        <div class="box_producto">
+            <div class="box">
+                <img src="/images/s23 +.jpg">
+                <h2>Samsung Galaxy S23 +</h2>
+                <p>Es un teléfono inteligente de gama alta con un diseño elegante y características avanzadas. Cuenta con una pantalla AMOLED de alta resolución, potentes cámaras, un rendimiento rápido y una batería de larga duración.</p>
+                <span>$650</span>
+                <div class="options">
+                    <a href="/productos/audifonosproduct.html">Comprar</a>
+                    <a href="#" class="add-to-cart" data-product="1">Agregar al Carrito</a>
+                </div>
+                <div class="description">
+                    <p>Pantalla:
+
+                        Tamaño: 6.6 pulgadas.
+                        Tipo: Dynamic AMOLED 2X.
+                        Resolución: Full HD+ (2340 x 1080 píxeles).
+                        Tasa de refresco: 120 Hz adaptativa.
+                        HDR: HDR10+.
+                        Brillo: Hasta 1750 nits (pico).
+                        Procesador:
+                        
+                        Chip: Qualcomm Snapdragon 8 Gen 2.
+                        Arquitectura: 4nm.
+                        Memoria y almacenamiento:
+                        
+                        RAM: 8 GB.
+                        Almacenamiento interno: Opciones de 256 GB y 512 GB.
+                        Cámara:
+                        
+                        Sistema de cámara trasera:
+                        Principal: 50 MP con apertura f/1.8, OIS.
+                        Ultra gran angular: 12 MP con apertura f/2.2 y campo de visión de 120 grados.
+                        Teleobjetivo: 10 MP con apertura f/2.4, OIS, y zoom óptico de 3x.
+                        Cámara frontal: 12 MP con apertura f/2.2.
+                        Batería:
+                        
+                        Capacidad: 4700 mAh.
+                        Carga rápida: Hasta 45W por cable.
+                        Carga inalámbrica: Hasta 15W.
+                        Carga inalámbrica inversa: Wireless PowerShare.</p>
+                    <ul class="social">
+                        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <h2>RECOMENDADOS</h2>
+    <div class="container_tienda">
+        <div class="box">
+            <img src="/images/iphone 15 pro max.png">
+            <h2>Iphone 15 Pro Max</h2>
+            <p>El iPhone 15 Pro Max se posiciona como uno de los smartphones más avanzados del mercado, dirigido a usuarios que buscan lo último en tecnología móvil.</p>
+            <span>$1050</span>
+            <div class="options">
+                <a href="/productos/celularproducto.html">Comprar</a>
+                <a href="#" class="add-to-cart" data-product="1">Agregar al Carrito</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/Huawei Mate 60 Pro.png">
+            <h2>Huawei Mate 60 Pro</h2>
+            <p>El Huawei Mate 60 Pro es un teléfono inteligente de gama alta.Que ofrece conectividad 5G. El teléfono tiene una pantalla OLED de 6,82 pulgadas.</p>
+            <span>$900</span>
+            <div class="options">
+                <a href="#">Comprar</a>
+                <a href="#" class="add-to-cart" data-product="1">Agregar al Carrito</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/s23 +.jpg">
+            <h2>Xiaomi 14 Ultra</h2>
+            <p>Cuenta con un panel de pantalla C8 personalizado por Xiaomi con resolución WQHD+ y tecnología LTPO de 1-120 Hz que ofrece mayor eficiencia.</p>
+            <span>$1300</span>
+            <div class="options">
+                <a href="#">Comprar</a>
+                <a href="#" class="add-to-cart" data-product="1">Agregar al Carrito</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/s24 ultra.jpg">
+            <h2>Samsung Galaxy S24 Ultra</h2>
+            <p>El Samsung Galaxy S24 Ultra es un smartphone de gama alta que promete ofrecer características de vanguardia y un rendimiento superior.</p>
+            <span>$950</span>
+            <div class="options">
+                <a href="#">Comprar</a>
+                <a href="#" class="add-to-cart" data-product="1">Agregar al Carrito</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="/scripts.js"></script>
+
+    <footer>
+        <p>&copy; 2024 TecnoSell. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

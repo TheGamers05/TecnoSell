@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - TecnoSell</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <img src="/images/logo2.png" alt="Logo de TecnoSell" class="logo">
+        </div>
+        <div class="header-center">
+            <h1>TECNOSELL</h1>
+        </div>
+        <div class="header-right">
+            <div class="social-buttons">
+                <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.whatsapp.com" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navegador -->
+    <nav class="navegador">
+        <ul>
+            <li class="pagina-principal"><a href="/index.html">Página Principal</a></li>
+            <li>
+                <a href="/tienda.html">Tienda</a>
+                <ul class="submenu">
+                    <li><a href="/tienda/audifonos.html">Audífonos</a></li>
+                    <li><a href="/tienda/laptops.html">Laptops</a></li>
+                    <li><a href="/tienda/consolas.html">Consolas</a></li>
+                    <li><a href="/tienda/celulares.html">Celulares</a></li>
+                </ul>
+            </li>
+            <li><a href="#" id="cart-button">Carrito (<span id="cart-count">0</span>)</a></li>
+        </ul>
+    </nav>
+
+    <div id="cart" style="display:none;">
+        <h2>Carrito de Compras</h2>
+        <div id="cart-items"></div>
+        <button id="checkout-button">Finalizar Compra</button>
+        <button id="close-cart-button">Cerrar Carrito</button>
+    </div>
+
+    <!-- TIENDA -->
+    <h2>Laptops</h2>
+    <div class="container_tienda">
+        <div class="box">
+            <img src="/images/lenovo.jpg">
+            <h2>Lenovo ThinkPad</h2>
+            <p>Es una línea de laptops empresariales reconocida por su durabilidad, rendimiento y seguridad. Con un diseño elegante y profesional, características avanzadas de seguridad y potentes especificaciones técnicas..</p>
+            <span>$700</span>
+            <div class="options">
+                <a href="/productos/laptopsproducto.html">Comprar</a>
+                <a href="#" class="add-to-cart" data-product="1">Agregar al Carrito</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/Dell Inspiron 15.jpg">
+            <h2>Dell Inspiron 15</h2>
+            <p>Esta laptop por sus buenas características, i5 de 10th con 8GB de RAM y SSD de 256GB. Es de la línea Inspiron su nivel funciona para usuarios de hogar y de trabajo. No cuenta con la conexión Ethernet, solo wifi.</p>
+            <span>$550</span>
+            <div class="options">
+                <a href="/productos/laptopsproducto.html">Comprar</a>
+                <a href="#" class="add-to-cart" data-product="1">Agregar al Carrito</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/samsung.jpg">
+            <h2>Samsung Galaxy Books 4 Pro</h2>
+            <p>Es una computadora portátil versátil y potente que combina la portabilidad de una tablet con el rendimiento de una laptop. Con un diseño delgado y ligero, una pantalla táctil de alta resolución.</p>
+            <span>$1400</span>
+            <div class="options">
+                <a href="/productos/laptopsproducto.html">Comprar</a>
+                <a href="#" class="add-to-cart" data-product="1">Agregar al Carrito</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/MacBook Pro M2.png">
+            <h2>Apple MacBook Pro M2</h2>
+            <p>La MacBook Pro M2 es una excelente opción para aquellos que buscan un rendimiento mejorado en una laptop. Con su nuevo chip M2 de Apple, memoria unificada de hasta 24GB, ofrece un rendimiento potente.</p>
+            <span>$1500</span>
+            <div class="options">
+                <a href="/productos/laptopsproducto.html">Comprar</a>
+                <a href="#" class="add-to-cart" data-product="1">Agregar al Carrito</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/msi.jpg">
+            <h2>MSI Elite 16</h2>
+            <p>Es una laptop gaming de alto rendimiento diseñada para ofrecer una experiencia de juego fluida y envolvente. Con potentes especificaciones técnicas, una pantalla de alta frecuencia de actualización y un diseño robusto.</p>
+            <span>$1500</span>
+            <div class="options">
+                <a href="/productos/laptopsproducto.html">Comprar</a>
+                <a href="#" class="add-to-cart" data-product="1">Agregar al Carrito</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/asus rog strix g15.jpg">
+            <h2>Asus ROG Strix G15</h2>
+            <p>El Asus ROG Strix G15 es una laptop para juegos diseñada para ofrecer experiencias de juego de alto rendimiento. Forma parte de la línea Republic of Gamers (ROG) de Asus, conocida por su hardware muy potente.</p>
+            <span>$1200</span>
+            <div class="options">
+                <a href="/productos/laptopsproducto.html">Comprar</a>
+                <a href="#" class="add-to-cart" data-product="1">Agregar al Carrito</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/hp victus 16.jpg">
+            <h2>HP Victus 16</h2>
+            <p> La HP Victus 16 es una opción atractiva para los jugadores que buscan una laptop de tamaño medio con un buen rendimiento y un diseño llamativo, todo a un precio más accesible que algunas alternativas de gama alta.</p>
+            <span>$750</span>
+            <div class="options">
+                <a href="/productos/laptopsproducto.html">Comprar</a>
+                <a href="#" class="add-to-cart" data-product="1">Agregar al Carrito</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/Acer nitro 5.jpg">
+            <h2>Acer Nitro 5</h2>
+            <p>El Acer Nitro 5 es una laptop gaming que ofrece un sólido rendimiento gráfico y de procesamiento a un precio asequible. Con un diseño robusto, pantalla Full HD y opciones de conectividad, es una opción popular para jugadores.</p>
+            <span>$875</span>
+            <div class="options">
+                <a href="/productos/laptopsproducto.html">Comprar</a>
+                <a href="#" class="add-to-cart" data-product="1">Agregar al Carrito</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="/scripts.js"></script>
+
+    <footer>
+        <p>&copy; 2024 TecnoSell. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
